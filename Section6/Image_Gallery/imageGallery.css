@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(44, 39, 39);
+    
+}
+
+img{
+    width:30%;
+    height: 290px;
+    float:left;
+    margin:1.66%;
+}
+
+p{
+    color:white;
+    font-family: 'Raleway';
+    font-size: 23px;
+    font-weight:800;
+    margin-left:1.66%;
+    text-transform: uppercase; 
+    border-bottom: 2px solid rgb(204, 189, 189);
+    width:30%;
+    padding-bottom:20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Exercise</title>
+</head>
+<body>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input name="first" id="firstName" type="text" placeholder="Mary" required> 
+        <label for="lastName">Last Name:</label>
+        <input name="last" id="lastName" type="text" placeholder="Smith"required>
+
+        <p>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="Male">
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="Female">
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="Other">
+        </p>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="something@gmail.com" required>
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="Password" pattern=".{5,10}" required title="Please enter password that has 5 to 10 characters">
+
+        <p>
+        <label>
+            Birthday
+            <select name="Month">
+                <option>January</option>
+                <option>February</option>
+                <option>May</option>
+            </select>
+            <select name="Day">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <select name="Year">
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+            </select> 
+        </label>
+        </p>    
+
+        <p>
+        <label for="check">I agree with the terms and conditions</label>
+        <input id="check" name="checked" type="checkbox">
+        </p>
+
+        <input type="submit"> 
+    </form>
+</body>
+</html>
